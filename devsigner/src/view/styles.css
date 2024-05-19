@@ -1,0 +1,22 @@
+.main-cont {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EFEDFF;
+}
+
+.left-land {
+    width: 30%;
+}
+
+.left-land h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+.left-land p {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+}
