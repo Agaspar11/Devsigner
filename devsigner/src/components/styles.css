@@ -1,6 +1,12 @@
 /* Navbar */
 
 nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-cont {
     padding: 20px;
     background-color: #EFEDFF;
     display: flex;
@@ -36,6 +42,7 @@ nav {
     border-radius: 10px;
     border: 1px solid #553DEB;
     transition: 0.5s;
+    box-shadow: 0px 0px 3px #553DEB, 0px 0px 0px #553DEB;
 }
 
 .connect a:hover {
@@ -47,4 +54,36 @@ nav {
 
 .logo img {
     width: 120px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 978px) {
+
+    .nav-list ul {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+  
+    .nav-list.open ul {
+        display: flex;
+    }
+
+    .connect {
+        display: none;
+    }
+  
+    .connect.open {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .burger {
+        display: block;
+    }
 }

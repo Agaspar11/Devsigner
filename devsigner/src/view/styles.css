@@ -1,9 +1,10 @@
+/* Landing */
+
 .main-cont {
-    height: 80vh;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #EFEDFF;
 }
 
 .left-land {
@@ -16,7 +17,211 @@
     margin: 0;
 }
 
+.left-land h1 span {
+    color: #553DEB;
+    text-shadow: 0px 0px 3px #553DEB, 0px 0px 0px #553DEB;
+}
+
 .left-land p {
     font-size: 20px;
     font-family: "Jost", sans-serif;
+    margin: 0;
 }
+
+.land-button {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.right-land img {
+    width: 800px;
+}
+
+
+.land-button .left-btn a {
+    text-decoration: none;
+    color: #EFEDFF;
+    background-color: #553DEB;
+    border: #553DEB 1px solid;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    margin-right: 20px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 3px #553DEB, 0px 0px 0px #553DEB;
+}
+
+.land-button .left-btn a:hover {
+    transition: 0.3s;
+    background-color: #EFEDFF;
+    border: #553DEB 1px solid;
+    color: #553DEB;
+}
+
+.land-button .right-btn a {
+    text-decoration: none;
+    color: #553DEB;
+    background-color: #EFEDFF;
+    border: #553DEB 1px solid;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    transition: 0.3s;
+    box-shadow: 0px 0px 3px #553DEB, 0px 0px 0px #553DEB;
+}
+
+.land-button .right-btn a:hover {
+    transition: 0.3s;
+    background-color: #553DEB;
+    border: #553DEB 1px solid;
+    color: #EFEDFF;
+}
+
+.land-contact {
+   font-size: 30px;
+   margin-top: 35px;
+   display: flex;
+   gap: 25px;
+   align-items: center;
+}
+
+  /* End of Landing Page */
+
+  /* About */
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-img img {
+    width: 800px;
+    box-shadow: 2px 2px 10px #bbb0ff;
+    border-radius: 10px;
+}
+
+.about-details {
+    text-align: right;
+    width: 40%;
+}
+
+.about-details h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 50px;
+    margin: 0;
+    text-align: left;
+}
+
+.about-details p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    margin: 0;
+}
+
+.about-details span {
+     color: #553DEB;
+    text-shadow: 0px 0px 3px #553DEB, 0px 0px 0px #553DEB;
+}
+/* End of About */
+
+/* Community */
+.community {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.community-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-com {
+    width: 40%;
+}
+
+.left-com h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+.left-com p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    margin: 0;
+}
+
+.left-com h1 span {
+    color: #553DEB;
+    text-shadow: 0px 0px 3px #553DEB, 0px 0px 0px #553DEB;
+}
+
+.com-btn {
+    margin-top: 35px;
+}
+
+.com-btn a{
+    text-decoration: none;
+    color: #553DEB;
+    background-color: #EFEDFF;
+    border: #553DEB 1px solid;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    transition: 0.3s;
+    box-shadow: 0px 0px 3px #553DEB, 0px 0px 0px #553DEB;
+    
+}
+
+.com-btn a:hover {
+    transition: 0.3s;
+    background-color: #553DEB;
+    border: #553DEB 1px solid;
+    color: #EFEDFF;
+}
+
+.right-com {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+  }
+  
+  .com-blocks {
+    background-color: #EFEDFF;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 240px;
+    height: 240px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .com-blocks h3 {
+    font-family: 'Jost', 'Sans-serif';
+    color: #553DEB;
+    text-shadow: 0px 0px 1px #553DEB, 0px 0px 0px #553DEB;
+    font-size: 25px;
+  }
+  
+  .com-blocks p {
+    margin: 0;
+    font-family: 'Jost', 'Sans-serif';
+  }
+  
