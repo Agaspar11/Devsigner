@@ -224,4 +224,17 @@
     margin: 0;
     font-family: 'Jost', 'Sans-serif';
   }
-  
+  /* End of community */
+  /* Learn */
+
+  .learn {
+    height: fit-content;
+  }
+
+  .upper-learn {
+    text-align: center;
+  }
+
+  .upper-learn h2 {
+    font-family: 'Jost', 'Sans-serif';
+  }

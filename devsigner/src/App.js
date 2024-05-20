@@ -4,6 +4,7 @@ import './index.css'
 import Landing from './view/Landing'
 import About from './view/About'
 import Community from './view/Community'
+import Learn from './view/Learn'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
     <Landing />
     <About />
     <Community />
+    <Learn />
     </div>
     </>
   )
